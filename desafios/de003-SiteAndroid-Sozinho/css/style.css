@@ -1,0 +1,318 @@
+@charset 'UTF-8'; 
+
+/* 
+
+Cores primarias do site - Mais forte pro mais fraco
+Link: https://color.adobe.com/pt/search?q=Android
+#24F032 / #117017 / #18A322 / #43BD4B / #ABF5B0
+Nome: Mini projeto Android
+Criadora: Ketheryn Viegas
+
+*/
+
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #abf5cc;
+}
+
+/* [=][=][=][=][=][=] MENU [=][=][=][=][=][=] */
+
+
+header {
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #26be72d8, #14581d);
+}
+
+nav > a {
+    margin-right: 10px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: #24F032;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.295);
+}
+
+header > h2 {
+    text-align: center;
+    font-size: 14px;
+    color: lightgray;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+}
+
+nav {
+    padding: 10px 10px 0px 0px;
+}
+
+/* [=][=][=][=][=][=] FIM - MENU [=][=][=][=][=][=] */
+
+
+
+
+/* [=][=][=][=][=][=] CONTEUDO [=][=][=][=][=][=] */
+
+main {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* [=][=][=][=][=][=] SECTION H-ANDROID [=][=][=][=][=][=] */
+
+section#h-android > article > h1 {
+    text-transform: uppercase;
+    color: #073a0f;
+}
+
+section#h-android > article > p {
+    text-indent: 25px;
+}
+
+section#h-android > article > p > strong {
+    color: #03660f;
+}
+/* [=][=][=][=][=][=] FIM - SECTION H-ANDROID [=][=][=][=][=][=] */
+
+
+
+
+/* [=][=][=][=][=][=] SECTION P-VERSAO [=][=][=][=][=][=] */
+
+section#p-versao > article > h1 {
+    text-transform: uppercase;
+    color: #073a0f;
+    background-image: linear-gradient(to right, #68f77477, white);
+}
+
+section#p-versao > article > p {
+    text-indent: 25px;
+}
+
+section#p-versao > article > p > strong {
+    color: #03660f;
+}
+
+section#p-versao > article > p > a {
+    text-decoration: none;
+    color: #03660f;
+}
+
+section#p-versao > article > p > a:hover {
+    text-decoration: underline #03660f;
+}
+
+#p-versao a:visited { 
+    color: brown;
+}
+
+#p-versao a:active {
+    color: #03660f;
+}
+
+
+#p-versao a::after {
+    margin-left: 5px;
+    content: '[Link]';
+}
+
+section#p-versao > article > div > img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+}
+
+/* [=][=][=][=][=][=] FIM - SECTION P-VERSAO [=][=][=][=][=][=] */
+
+
+
+/* [=][=][=][=][=][=] SECTION - N-MASCOTE [=][=][=][=][=][=] */
+
+section#n-mascote > article > h1 {
+    text-transform: uppercase;
+    color: #073a0f;
+    background-image: linear-gradient(to right, #68f77477, white);
+}
+
+section#n-mascote > article > p {
+    text-indent: 25px;
+}
+
+section#n-mascote > article > p > a {
+    text-decoration: none;
+    color: #03660f;
+}
+
+section#n-mascote > article > p > strong {
+    color: #03660f;
+}
+
+section#n-mascote > article > p > a:hover {
+    text-decoration: underline #03660f;
+}
+
+#n-mascote a:visited {
+    color: brown;
+}
+
+#n-mascote a:active {
+    color: #03660f;
+}
+
+#n-mascote a::after {
+    margin-left: 5px;
+    content: '[Link]';
+}
+
+section#n-mascote > article > div > .foto-irina {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+}
+
+section#n-mascote > article > div > .foto-bugdroid {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+}
+/* [=][=][=][=][=][=] FIM - SECTION - N-MASCOTE [=][=][=][=][=][=] */
+
+
+
+/* [=][=][=][=][=][=] VIDEO - ANDROID [=][=][=][=][=][=] */
+
+section#video > article{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+section#video > article > iframe {
+    margin: auto -10px auto -10px;
+    display: flex;
+    position: relative;
+    border: 20px solid #073a0f;
+    background-color: #073a0f;
+}
+
+/* [=][=][=][=][=][=] FIM - VIDEO - ANDROID [=][=][=][=][=][=] */
+
+/* [=][=][=][=][=][=] LISTA [=][=][=][=][=][=] */
+
+section#extra > article > h3 {
+    margin-bottom: -16px;
+    padding: 5px;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #219e51e5;
+}
+
+section#extra > article > div > p {
+    padding: 10px;
+    text-indent: 25px;
+}
+
+section#extra > article > div {
+    background-color: #9eeeb9c4;
+    border-radius: 0px 0px 15px 15px;
+}
+
+section#extra > article > div > .lista > ul {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    gap: 10px 100px;
+    list-style: circle;
+}
+
+/* [=][=][=][=][=][=] FIM - LISTA [=][=][=][=][=][=] */
+
+/* [=][=][=][=][=][=] HISTORIA - ANDROID [=][=][=][=][=][=] */
+
+.historia-android {
+    padding: 10px;
+    text-indent: 25px;
+}
+
+section#extra > article > div > .historia-android > p > a {
+    color: #03660f;
+}
+
+section#extra > article > div > .historia-android > p > a {
+    text-decoration: none;
+}
+
+section#extra > article > div > .historia-android > p > a:hover {
+    text-decoration: underline #03660f;
+}
+
+section#extra > article > div > .historia-android > p > a:visited {
+    color: brown;
+}
+
+section#extra > article > div > .historia-android > p > a::after {
+    margin-left: 5px;
+    content: '[Link]';
+}
+
+/* [=][=][=][=][=][=] FIM - HISTORIA - ANDROID [=][=][=][=][=][=] */
+
+
+/* [=][=][=][=][=][=] SITE - ANDROID [=][=][=][=][=][=] */
+
+section#site-android > p {
+    text-indent: 25px;
+}
+
+section#site-android > p > strong {
+    color: #03660f;
+}
+
+/* [=][=][=][=][=][=] FIM - SITE - ANDROID [=][=][=][=][=][=] */
+
+
+/* [=][=][=][=][=][=] FINAL [=][=][=][=][=][=] */
+
+footer > p {
+    padding: 5px;
+    margin-bottom: -5px;
+    font-size: 12px;
+    text-align: center;
+    color: lightgrey;
+    background-color: #073a0f;
+}
+
+footer > p > strong {
+    color: rgba(255, 255, 255, 0.945);
+}
+
+
+/* [=][=][=][=][=][=] FIM [=][=][=][=][=][=] */

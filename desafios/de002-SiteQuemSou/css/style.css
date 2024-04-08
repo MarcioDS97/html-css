@@ -1,0 +1,126 @@
+@charset 'UTF-8';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BFA18F;
+    background-image: linear-gradient(to left, #733F2D, #A67F68);
+}
+
+main {
+    padding: 15px;
+    background-color: #F2F2F0;
+    border-radius: 10px 10px;
+    border-style: groove;
+    border-color: #733e2da8;
+    box-shadow: 5px 5px 15px #a1a1a0;
+}
+
+.foto-perfil {
+    display: flex;
+    position: relative;
+    margin: auto;
+    border-radius: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+li {
+    margin-top: 15px;
+}
+
+.lista-item {
+    display: inline-block;
+}
+
+li:hover {
+    padding-left: 3px;
+    border-style: initial;
+    color: brown;
+    text-decoration: underline #733e2da8;
+}
+
+audio {
+    display: flex;
+    position: relative;
+    margin: auto;
+    border-style: groove;
+    border-color: #BFA18F;
+    border-radius: 20px 5px;
+}
+
+/* Aqui finaliza na música */
+
+/* Icones de recomendação */
+
+.container {
+    padding: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.icone-js {
+    border-radius: 40px;
+}
+
+.icone-php {
+    border-radius: 40px;
+}
+
+.icone-html5 {
+    border-radius: 40px;
+}
+
+.icone-css {
+    border-radius: 40px;
+}
+
+/* Player de vídeo */
+
+.player-midia {
+    display: flex;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+}
+
+.btn-back {
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.btn-link-completo {
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.btn-vc:link, .btn-vc:visited {
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #BFA393;
+}
+
+.btn-vc:hover {
+    box-shadow: 3px 3px 15px #733e2da8;
+    border-radius: 5px;
+    color: black;
+}
