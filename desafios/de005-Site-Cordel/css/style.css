@@ -38,9 +38,24 @@ header > p {
     text-align: center;
 }
 
-main p {
-    margin: 10px 15px;
-    text-align: left;
+p {
     font-size: 1.5em;
-    line-height: 2em;
+    line-height: 2.5em;
+}
+
+section#container {
+    height: 500px;
+    position: relative;
+    background-color: purple;
+    padding: 10px;
+}
+
+article#conteudo {
+    height: 300px;
+    position: absolute;
+    background-color: yellow;
+    width: 380px;
+
+    left: 5%;
+    top: 10%;
 }
