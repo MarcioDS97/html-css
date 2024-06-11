@@ -1,9 +1,15 @@
 @charset 'UTF-8';
 
+/* Configuração global do CSS */
+
 * {
     margin: 0px;
     padding: 0px;
+
+    font-family: var(--fonte-padrao);
 }
+
+/* Variaveis do Arquivo CSS */
 
 :root {
     --cor0: black;
@@ -15,47 +21,59 @@
     --fonte-secundaria: ;
 }
 
-body {
-    background-color: var(--cor1);
-    font-family: var(--fonte-padrao);
-}
+/* Configuração - Cordel Moderno */
 
 header {
     background-color: var(--cor0);
     color: var(--cor1);
-    padding: 10%;
-    /*margin-bottom: 50px;*/
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.404);
-}
 
-h1 {
-    font-size: 3.5em;
+    font-size: 1.5em;
+    padding: 8%;
     text-align: center;
 }
 
 header > p {
-    font-size: 1em;
-    text-align: center;
+    font-size: 0.8em;
 }
 
-p {
-    font-size: 1.5em;
-    line-height: 2.5em;
-}
+/* Configuração - Link - Por Milton Duarte */
 
-section#container {
+ p > a {
+    color: var(--cor1);
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ /* Configuração dos Locais do Texto */
+
+ section#container {
+    background-color: blueviolet;
     height: 500px;
     position: relative;
-    background-color: purple;
     padding: 10px;
-}
+ }
 
-article#conteudo {
-    height: 300px;
+ article#conteudo {
+    background-color: yellowgreen;
     position: absolute;
-    background-color: yellow;
-    width: 380px;
+    height: 340px;
+    width: 400px;
 
     left: 5%;
-    top: 10%;
-}
+    top: 5%;
+ }
+
+ /* configurações do Textos dentro do Container */
+
+ article > p {
+    display: block;
+    text-align: left;
+    font-size: 2em;
+    line-height: 2em;
+    border: 1px solid black;
+ }
+
+ /* Configurando Primeiro Paragrafo */
