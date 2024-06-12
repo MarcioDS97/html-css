@@ -3,77 +3,86 @@
 /* Configuração global do CSS */
 
 * {
-    margin: 0px;
-    padding: 0px;
-
-    font-family: var(--fonte-padrao);
+   margin: 0px;
+   padding: 0px;
+   font-size: 1em;
 }
 
 /* Variaveis do Arquivo CSS */
 
 :root {
-    --cor0: black;
-    --cor1: white;
-    --cor3: gray;
+   --cor0: black;
+   --cor1: white;
+   --cor3: gray;
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: ;
-    --fonte-secundaria: ;
+   --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
 
-/* Configuração - Cordel Moderno */
+/* Configurando ajustes automaticos da View Port */
+
+body {
+   min-height: 100vh;
+   background-color: darkgrey;
+   font-family: var(--fonte-padrao);
+}
+
+/* Configurando o Painel da Pagina */
 
 header {
-    background-color: var(--cor0);
-    color: var(--cor1);
+   color: var(--cor1);
+   text-align: center;
+   background-color: black;
+}
 
-    font-size: 1.5em;
-    padding: 8%;
-    text-align: center;
+header > h1 {
+   padding-top: 50px;
+   font-variant: small-caps;
+   font-size: 10vw;
+   font-family: var(--fonte-padrao);
 }
 
 header > p {
-    font-size: 0.8em;
+   padding-bottom: 50px;
 }
 
-/* Configuração - Link - Por Milton Duarte */
+/* Configurando o link - Milton Duarte */
 
- p > a {
-    color: var(--cor1);
-    text-decoration: none;
- }
+a {
+   color: var(--cor1);
+   text-decoration: none;
+}
 
- a:hover {
-    text-decoration: underline;
- }
+a:hover {
+   text-decoration: underline;
+}
 
- /* Configuração dos Locais do Texto */
+/* Configurando o padrão das sections */
 
- section#container {
-    background-color: blueviolet;
-    height: 500px;
-    position: relative;
-    padding: 10px;
- }
+section {
+   padding-top: 10vh;
+   padding-left: 30px;
+   padding-bottom: 10vh;
+   line-height: 2em;
 
- article#conteudo {
-    background-color: yellowgreen;
-    position: absolute;
-    height: 340px;
-    width: 400px;
+   font-family: var(--fonte-padrao);
+   font-size: 3.5vw;
+   border: 1px solid black;
+}
 
-    left: 5%;
-    top: 5%;
- }
+section.normal {
+   background-color: var(--cor1);
+   color: var(--cor0);
+}
 
- /* configurações do Textos dentro do Container */
+section > p {
+   padding-bottom: 2em;
+}
 
- article > p {
-    display: block;
-    text-align: left;
-    font-size: 2em;
-    line-height: 2em;
-    border: 1px solid black;
- }
-
- /* Configurando Primeiro Paragrafo */
+p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   unicode-bidi: isolate;
+}
