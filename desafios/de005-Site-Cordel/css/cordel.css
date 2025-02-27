@@ -35,8 +35,14 @@ header a:hover, footer a:hover {
     text-decoration: underline burlywood;
 }
 
+
+
+
+
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
